@@ -20,8 +20,11 @@
 
 	<developers>
 		<developer>
+			<id>switchover</id>
 			<name>Vincent Han</name>
 			<email>switchover@gmail.com</email>
+			<organization>Samsung SDS</organization>
+			<organizationUrl>http://www.samsungsds.com/</organizationUrl>
 		</developer>
 	</developers>
 
