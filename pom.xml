@@ -5,7 +5,7 @@
 
 	<groupId>io.github.switchover</groupId>
 	<artifactId>code-analysis</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 
 	<name>Code-Analysis</name>
 	<description>Code Analysis to measure various code metrics</description>
@@ -20,8 +20,11 @@
 
 	<developers>
 		<developer>
+			<id>switchover</id>
 			<name>Vincent Han</name>
 			<email>switchover@gmail.com</email>
+			<organization>Samsung SDS</organization>
+			<organizationUrl>http://www.samsungsds.com/</organizationUrl>
 		</developer>
 	</developers>
 
@@ -141,7 +144,7 @@
 						<configuration>
 							<serverId>ossrh</serverId>
 							<nexusUrl>https://oss.sonatype.org/</nexusUrl>
-							<autoReleaseAfterClose>true</autoReleaseAfterClose>
+							<!--autoReleaseAfterClose>true</autoReleaseAfterClose-->
 						</configuration>
 					</plugin>
 				</plugins>
